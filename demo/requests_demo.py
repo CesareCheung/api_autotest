@@ -52,8 +52,8 @@ def parse_one_page(html):
 # 数据存储
 
 def write_file(content):
-    with open("result.txt",'a',encoding='utf-8') as f:
-        f.write(json.dumps(content,ensure_ascii=False)+"\n")
+    with open("result.txt", 'a', encoding='utf-8') as f:
+        f.write(json.dumps(content, ensure_ascii=False) + "\n")
 
 
 if __name__ == '__main__':
