@@ -3,7 +3,7 @@ import re, json
 
 # 对网址发送网络请求
 
-url = "http://maoyan.com/board/4"
+
 
 
 def get_html(url):
@@ -56,8 +56,17 @@ def write_file(content):
         f.write(json.dumps(content, ensure_ascii=False) + "\n")
 
 
-if __name__ == '__main__':
+def main():
+    """
+    主函数
+    :return:
+    """
+    url = "http://maoyan.com/board/4"
     html = get_html(url)
-    for item in parse_one_page(get_html(url)):
+    for item in parse_one_page(html):
         print(item)
         write_file(item)
+
+
+if __name__ == '__main__':
+    main()
