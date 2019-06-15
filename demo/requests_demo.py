@@ -1,14 +1,13 @@
 import requests
 import re, json
 
+
 # 对网址发送网络请求
-
-
 
 
 def get_html(url):
     """
-    模拟浏览器selenium伪装
+    获取网页html源码
     :return:
     """
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) " \
@@ -25,7 +24,7 @@ def get_html(url):
 
 def parse_one_page(html):
     """
-    正则匹配需要的内容
+    正则匹配需要内容
     :param html:
     :return:
     """
@@ -52,7 +51,7 @@ def parse_one_page(html):
 # 数据存储
 
 def write_file(content):
-    with open("result.txt", 'a', encoding='utf-8') as f:
+    with open("result.txt", 'a+', encoding='utf-8') as f:
         f.write(json.dumps(content, ensure_ascii=False) + "\n")
 
 
