@@ -51,7 +51,6 @@ def parase_one_page(html):
 
 def music(html):
     """
-
     :param html:
     :return:
     """
@@ -71,12 +70,12 @@ def main():
 if __name__ == '__main__':
     main()
 
-import re
-url = "https://music.163.com"
-
-pattern=re.compile('.*?<a href=.*?>(.*?)</a>')
-
-r=re.search(pattern,get_html(url))
-r=r.group()
-
-print(r)
+# import re
+# url = "https://music.163.com"
+#
+# pattern=re.compile('.*?<a href=.*?>(.*?)</a>')
+#
+# r=re.search(pattern,get_html(url))
+# r=r.group()
+#
+# print(r)
