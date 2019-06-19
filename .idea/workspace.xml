@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="645912c4-4243-4c2e-a81c-5e5080dde036" name="Default Changelist" comment="">
+    <list default="true" id="645912c4-4243-4c2e-a81c-5e5080dde036" name="Default Changelist" comment="数据库链接">
+      <change afterPath="$PROJECT_DIR$/demo/test_pymdb.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/requests_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/requests_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/result.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo/requests_demo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            <state relative-caret-position="540">
+              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -45,11 +44,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="1296">
+              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo/test_pymdb.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -76,17 +84,18 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/笔记.txt" />
-        <option value="$PROJECT_DIR$/demo/result.txt" />
-        <option value="$PROJECT_DIR$/demo/test.py" />
         <option value="$PROJECT_DIR$/demo/requests_demo.py" />
+        <option value="$PROJECT_DIR$/demo/test.py" />
+        <option value="$PROJECT_DIR$/demo/result.txt" />
+        <option value="$PROJECT_DIR$/demo/test_pymdb.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="219" />
-    <option name="y" value="18" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="384" />
+    <option name="y" value="110" />
+    <option name="width" value="1260" />
+    <option name="height" value="863" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -114,7 +123,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spiders" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -128,7 +137,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.requests_demo">
+  <component name="RunManager" selected="Python tests.pytest in test_pymdb.py">
     <configuration name="requests_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="api_autotest" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -171,8 +180,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_pymdb.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="api_autotest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/demo/test_pymdb.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_pymdb.py" />
         <item itemvalue="Python.requests_demo" />
         <item itemvalue="Python.test" />
       </list>
@@ -203,8 +228,41 @@
       <option name="project" value="LOCAL" />
       <updated>1560441770289</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="更新">
+      <created>1560585020193</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560585020193</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改">
+      <created>1560585146794</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560585146794</updated>
+    </task>
+    <task id="LOCAL-00005" summary="最新数据">
+      <created>1560585157774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560585157774</updated>
+    </task>
+    <task id="LOCAL-00006" summary="数据库链接">
+      <created>1560736939167</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560736939167</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_test_pymdb_py - 2019.06.15 at 18h 59m 08s.xml">
+      <configuration name="pytest in test_pymdb.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,12 +277,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11116965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12539515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.38394794" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49894625" visible="true" weight="0.38394794" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -306,7 +364,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="requests+excel" />
     <MESSAGE value="数据存储" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据存储" />
+    <MESSAGE value="更新" />
+    <MESSAGE value="修改" />
+    <MESSAGE value="最新数据" />
+    <MESSAGE value="数据库链接" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据库链接" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/python37/Lib/re.py" />
@@ -320,6 +382,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/python37/Lib/site-packages/pymysql/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/.pytest_cache/README.md" />
+    <entry file="file://$PROJECT_DIR$/demo/.pytest_cache/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/demo/.pytest_cache/CACHEDIR.TAG" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -328,23 +400,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/result.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/demo/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="1296">
+          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo/test_pymdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/result.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo/requests_demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        <state relative-caret-position="540">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
