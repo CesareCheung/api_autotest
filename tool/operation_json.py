@@ -16,8 +16,8 @@ class OperetionJson:
         读取JSON数据
         :return:
         """
-        with open(self.file_path) as fp:
-            data = json.loads(fp)
+        with open(self.file_path,'r',encoding='utf-8') as fp:
+            data = json.load(fp)
         return data
 
     def get_data(self, id):
