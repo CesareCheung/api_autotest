@@ -2,28 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8e6edd-dc87-4589-aecd-c36bd3376d45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Base/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/mock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Base/runmethon.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataconfig/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataconfig/case1.xls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataconfig/cookie.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataconfig/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/demo/test_pymdb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/run_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operation_data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operation_data/data_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operation_data/dependent_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/operation_data/get_data.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tool/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tool/common_util.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tool/connect_db.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tool/operation_excel.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tool/operation_header.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tool/operation_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/api_autotest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api_autotest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/read_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo/read_excel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/result.txt" afterDir="false" />
     </list>
@@ -387,14 +373,84 @@
       <option name="project" value="LOCAL" />
       <updated>1561131757482</updated>
     </task>
-    <task id="LOCAL-00002" summary="数据存储">
-      <created>1560441770289</created>
+    <task id="LOCAL-00002" summary="Merge branch 'master' of https://github.com/zhangweixu/api_autotest&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1561264364957</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1560441770289</updated>
+      <updated>1561264364957</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00003" summary="get/post方法封装">
+      <created>1561264406858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264406858</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Base方法封装">
+      <created>1561264434156</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264434156</updated>
+    </task>
+    <task id="LOCAL-00005" summary="运行文件">
+      <created>1561264472651</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264472652</updated>
+    </task>
+    <task id="LOCAL-00006" summary="数据依赖">
+      <created>1561264506814</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264506814</updated>
+    </task>
+    <task id="LOCAL-00007" summary="获取excel数据">
+      <created>1561264542373</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264542373</updated>
+    </task>
+    <task id="LOCAL-00008" summary="获取数据配置">
+      <created>1561264590948</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264590948</updated>
+    </task>
+    <task id="LOCAL-00009" summary="运行文件">
+      <created>1561264612128</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264612128</updated>
+    </task>
+    <task id="LOCAL-00010" summary="数据操作文件">
+      <created>1561264629941</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264629941</updated>
+    </task>
+    <task id="LOCAL-00011" summary="用例文件">
+      <created>1561264647062</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264647063</updated>
+    </task>
+    <task id="LOCAL-00012" summary="数据配置文件">
+      <created>1561264677784</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1561264677784</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -481,7 +537,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="判断字符串包含，判断字典是否相等" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/zhangweixu/api_autotest&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;mock 封装" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/zhangweixu/api_autotest&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="get/post方法封装" />
+    <MESSAGE value="Base方法封装" />
+    <MESSAGE value="数据依赖" />
+    <MESSAGE value="获取excel数据" />
+    <MESSAGE value="获取数据配置" />
+    <MESSAGE value="运行文件" />
+    <MESSAGE value="数据操作文件" />
+    <MESSAGE value="用例文件" />
+    <MESSAGE value="数据配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据配置文件" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://C:/python37/Lib/re.py">
