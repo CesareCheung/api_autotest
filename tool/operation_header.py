@@ -35,10 +35,10 @@ class OperationHeader:
 
 
 if __name__ == '__main__':
-    url = "https://testuser.zhaoliangji.com/api/login/index"
+    url = "https://www.baidu.com"
     data = {
 
-        "username": "13760159524",
+        "username": "13333333333",
 
         "password": "123456"
 
